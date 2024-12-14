@@ -70,6 +70,14 @@ const Menu = () => {
 
 export default Menu;
 
+
+//Completed  26 minutes of the video
+//code crashes but will fixed later
+
+
+
+
+
 // "use client"
 
 // import React from "react";
