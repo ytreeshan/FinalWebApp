@@ -17,10 +17,3 @@ export default function Home() {
   );
 }
 
-
-/*
-YOUTBUBE link: 
-    https://www.youtube.com/watch?v=gXlcwtS40LA
-    Watched up to: 8 minutes 
-    
-*/
