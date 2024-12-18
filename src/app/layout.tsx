@@ -12,8 +12,8 @@ import 'react-toastify/dist/ReactToastify.css';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Lama Restaurant",
-  description: "Best food in town!",
+  title: "Treeshan Restaurant",
+  description: "Best resturant in town!",
 };
 
 export default function RootLayout({

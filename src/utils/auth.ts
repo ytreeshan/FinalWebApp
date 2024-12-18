@@ -49,3 +49,7 @@ export const authOptions: NextAuthOptions = {
 };
 
 export const getAuthSession = () => getServerSession(authOptions);
+
+
+
+//completed up too 1:07 mintues of the video
