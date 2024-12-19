@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FinalWebApp
+
+FinalWebApp is a modern web application built with Next.js, leveraging TypeScript for type safety, Tailwind CSS for styling, and Prisma for database management. It includes robust API endpoints and integrates with a PostgreSQL database for data storage.
+
+---
+
+## Table of Contents
+
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the Development Server](#running-the-development-server)
+  - [Building for Production](#building-for-production)
+- [API Endpoints](#api-endpoints)
+- [Database](#database)
+- [Project Structure](#project-structure)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+---
+
+## Features
+
+- **Next.js Framework**: Enables server-side rendering, static site generation, and client-side rendering.
+- **TypeScript**: Provides type safety for improved developer experience and code quality.
+- **Tailwind CSS**: Utility-first CSS framework for efficient and responsive UI design.
+- **Prisma ORM**: Simplifies database interactions with a clean and type-safe API.
+- **PostgreSQL**: Robust, open-source relational database for storing application data.
+- **REST API**: Implements robust API endpoints for core functionalities.
+- **Authentication**: NextAuth.js for seamless user authentication.
+
+---
 
 ## Getting Started
 
-First, run the development server:
+Follow the steps below to set up and run the project on your local machine.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ensure you have the following installed:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Node.js** (v14 or later)
+- **npm** (v6 or later) or **Yarn** (v1 or later)
+- **PostgreSQL** (or another Prisma-supported database)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Installation
 
-## Learn More
+1. **Clone the repository**:
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   git clone https://github.com/ytreeshan/FinalWebApp.git
+   cd FinalWebApp
