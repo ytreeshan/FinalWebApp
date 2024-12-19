@@ -5,8 +5,6 @@ import CartIcon from "./CartIcon";
 import Image from "next/image";
 import UserLinks from "./UserLinks";
 
-
-
 const Navbar = () => {
   const user = false;
   return (
