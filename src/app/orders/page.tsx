@@ -38,7 +38,7 @@ const OrdersPage = () => {
     onSuccess() {
       queryClient.invalidateQueries({ queryKey: ["orders"] });
     },
-  });
+  }); 
 
   const handleUpdate = (e: React.FormEvent<HTMLFormElement>, id: string) => {
     e.preventDefault();
