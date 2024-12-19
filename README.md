@@ -1,6 +1,7 @@
-# FinalWebApp
+# TreeshanRestaurant
 
-FinalWebApp is a modern web application built with Next.js, leveraging TypeScript for type safety, Tailwind CSS for styling, and Prisma for database management. It includes robust API endpoints and integrates with a PostgreSQL database for data storage.
+
+TreeshanRestaurant is a modern web application built with Next.js, leveraging TypeScript for type safety, Tailwind CSS for styling, and Prisma for database management. It includes robust API endpoints and integrates with a PostgreSQL database for data storage.
 
 ---
 
@@ -51,5 +52,6 @@ Ensure you have the following installed:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/ytreeshan/FinalWebApp.git
-   cd FinalWebApp
+   git clone [https://github.com/ytreeshan/FinalWebApp.git](https://github.com/ytreeshan/TreeshanRestaurant.git)
+   cd TreeshanRestaurant
+   
