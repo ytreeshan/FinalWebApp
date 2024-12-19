@@ -52,5 +52,6 @@ Ensure you have the following installed:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/ytreeshan/FinalWebApp.git
-   cd FinalWebApp
+   git clone [https://github.com/ytreeshan/FinalWebApp.git](https://github.com/ytreeshan/TreeshanRestaurant.git)
+   cd TreeshanRestaurant
+   
