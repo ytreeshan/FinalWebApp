@@ -54,4 +54,9 @@ Ensure you have the following installed:
    ```bash
    git clone [https://github.com/ytreeshan/FinalWebApp.git](https://github.com/ytreeshan/TreeshanRestaurant.git)
    cd TreeshanRestaurant
+
+2. yarn install
+3. npx prisma studio //to view database to add or remove 
+4. yarn run dev
+
    
