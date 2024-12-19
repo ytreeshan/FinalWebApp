@@ -2,7 +2,7 @@ import Notification from "@/components/Notification";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import AuthProvider from "@/components/AuthProvider";
 import QueryProvider from "@/components/QueryProvider";
