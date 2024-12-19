@@ -7,26 +7,24 @@ import { toast } from "react-toastify";
 
 const Price = ({ product }: { product: ProductType }) => {
   const [total, setTotal] = useState(product.price);
-  const [quantity, setQuantity] = useState(1); // Ensure quantity starts at 1
+  const [quantity, setQuantity] = useState(1);
   const [selected, setSelected] = useState(0);
 
   const { addToCart } = useCartStore();
 
-  useEffect(() => {
-    useCartStore.persist.rehydrate();
-  }, []);
+  useEffect(()=>{
+    useCartStore.persist.rehydrate()
+  },[])
 
   useEffect(() => {
     if (product.options?.length) {
       setTotal(
         quantity * product.price + product.options[selected].additionalPrice
       );
-    } else {
-      setTotal(quantity * product.price); // Fallback to basic price calculation
     }
   }, [quantity, selected, product]);
 
-  const handleCart = () => {
+  const handleCart = ()=>{
     addToCart({
       id: product.id,
       title: product.title,
@@ -36,19 +34,17 @@ const Price = ({ product }: { product: ProductType }) => {
         optionTitle: product.options[selected].title,
       }),
       quantity: quantity,
-    });
-    toast.success("The product added to the cart!");
-  };
+    })
+    toast.success("The product added to the cart!")
+  }
 
   return (
     <div className="flex flex-col gap-4">
-      {/* Total Price */}
       <h2 className="text-2xl font-bold">${total}</h2>
-
       {/* OPTIONS CONTAINER */}
-      {product.options && product.options.length > 0 && (
-        <div className="flex gap-4">
-          {product.options.map((option, index) => (
+      <div className="flex gap-4">
+        {product.options?.length &&
+          product.options?.map((option, index) => (
             <button
               key={option.title}
               className="min-w-[6rem] p-2 ring-1 ring-red-400 rounded-md"
@@ -61,12 +57,10 @@ const Price = ({ product }: { product: ProductType }) => {
               {option.title}
             </button>
           ))}
-        </div>
-      )}
-
+      </div>
       {/* QUANTITY AND ADD BUTTON CONTAINER */}
       <div className="flex justify-between items-center">
-        {/* QUANTITY CONTROLLER */}
+        {/* QUANTITY */}
         <div className="flex justify-between w-full p-3 ring-1 ring-red-500">
           <span>Quantity</span>
           <div className="flex gap-4 items-center">
@@ -75,7 +69,6 @@ const Price = ({ product }: { product: ProductType }) => {
             >
               {"<"}
             </button>
-            {/* Ensure the quantity is rendered correctly */}
             <span>{quantity}</span>
             <button
               onClick={() => setQuantity((prev) => (prev < 9 ? prev + 1 : 9))}
@@ -84,7 +77,7 @@ const Price = ({ product }: { product: ProductType }) => {
             </button>
           </div>
         </div>
-        {/* ADD TO CART BUTTON */}
+        {/* CART BUTTON */}
         <button
           className="uppercase w-56 bg-red-500 text-white p-3 ring-1 ring-red-500"
           onClick={handleCart}
