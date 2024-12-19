@@ -2,7 +2,7 @@ import Notification from "@/components/Notification";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Navbar from "@/components/NavBar";
+import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import AuthProvider from "@/components/AuthProvider";
 import QueryProvider from "@/components/QueryProvider";
@@ -12,8 +12,8 @@ import 'react-toastify/dist/ReactToastify.css';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Treeshan Restaurant",
-  description: "Best resturant in town!",
+  title: "Lama Restaurant",
+  description: "Best food in town!",
 };
 
 export default function RootLayout({

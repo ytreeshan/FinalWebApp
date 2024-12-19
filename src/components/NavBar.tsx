@@ -37,6 +37,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
-//compeleted 2 hours into the video. 
