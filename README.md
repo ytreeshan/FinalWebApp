@@ -19,10 +19,15 @@ Table of Contents
   Features
 Next.js Framework: Utilizes server-side rendering, static site generation, and client-side rendering.
 TypeScript: Ensures type safety, leading to improved developer experience and code quality.
-Tailwind CSS: A utility-first CSS framework for rapid and responsive UI design.
+Tailwind 
+CSS: A utility-first CSS framework for rapid and responsive UI design.
+
 Prisma ORM: Provides a type-safe and clean API for database management.
+
 PostgreSQL: A robust relational database for efficient data storage.
+
 REST API: Implements scalable and secure API endpoints.
+
 Authentication: Seamless user authentication using NextAuth.js.
 Getting Started
 
@@ -61,7 +66,7 @@ Seed your database (if necessary):
 npx prisma db seed
 Launch Prisma Studio to manage your database:
 
-npx prisma studio
+npx prisma studio //to view current postgress database
 Running the Development Server
 Start the development server with the following command:
 
