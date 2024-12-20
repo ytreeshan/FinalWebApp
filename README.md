@@ -48,8 +48,7 @@ Set up the environment variables:
 
 Create a .env file in the root directory and add your database connection string and other secrets:
 
-env
-Copy code
+
 DATABASE_URL=postgresql://<username>:<password>@localhost:5432/<database_name>
 NEXTAUTH_SECRET=your-nextauth-secret
 Apply the Prisma migrations:
