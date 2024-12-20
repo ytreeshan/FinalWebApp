@@ -59,7 +59,7 @@ cd TreeshanRestaurant
 
 Install dependencies:
 
-yarn install
+  yarn install
 
 Set up the environment variables:
 
@@ -73,7 +73,7 @@ NEXTAUTH_SECRET=your-nextauth-secret
 Apply the Prisma migrations:
 
 
-npx prisma migrate dev
+  npx prisma migrate dev
 
 Seed your database (if necessary):
 
@@ -89,24 +89,22 @@ Running the Development Server
 Start the development server with the following command:
 
 
-yarn run dev
+  yarn run dev
 
 The application will be available at http://localhost:3000.
 
-Building for Production
-
-To build the project for production:
-
-Build the application:
-
-yarn build
-
-Start the production server:
+  Building for Production
+  
+  To build the project for production:
+  
+  Build the application:
+  
+  yarn build
 
 
-yarn start
-
-API Endpoints
+  yarn start
+  
+  API Endpoints
 
 GET: Fetches all products, optionally filtered by category.
 
@@ -114,12 +112,12 @@ Query Parameters: ?cat=<category_slug>
 
 POST: Creates a new product.
 
-/api/auth
+  /api/auth
 Handles user authentication using NextAuth.js.
 
 More endpoints are documented within the source code.
 
-Database
+  Database
 
 The application uses Prisma to interact with a PostgreSQL database.
 Ensure the database schema matches the application's requirements by running:
@@ -130,13 +128,9 @@ npx prisma migrate dev
 Use Prisma Studio to view and edit your database:
 
 
-npx prisma studio
+  npx prisma studio
 
-Project Structure
-
-plaintext
-
-TreeshanRestaurant/
+Project Structure TreeshanRestaurant/
 
 ├── prisma/                   # Prisma schema and migrations
 
