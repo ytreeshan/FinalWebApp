@@ -37,14 +37,12 @@ PostgreSQL (or another database supported by Prisma)
 Installation
 Clone the repository:
 
-bash
-Copy code
+
 git clone https://github.com/ytreeshan/TreeshanRestaurant.git
+
 cd TreeshanRestaurant
 Install dependencies:
 
-bash
-Copy code
 yarn install
 Set up the environment variables:
 
