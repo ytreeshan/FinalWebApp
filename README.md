@@ -30,6 +30,8 @@ CSS: A utility-first CSS framework for rapid and responsive UI design.
 
 Prisma ORM: Provides a type-safe and clean API for database management.
 
+Used Docker
+
 PostgreSQL: A robust relational database for efficient data storage.
 
 REST API: Implements scalable and secure API endpoints.
