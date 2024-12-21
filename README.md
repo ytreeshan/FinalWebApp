@@ -75,14 +75,9 @@ Apply the Prisma migrations:
 
   npx prisma migrate dev
 
-Seed your database (if necessary):
-
-
-npx prisma db seed
-
 Launch Prisma Studio to manage your database:
 
-npx prisma studio //to view current postgress database
+npx prisma studio //to view current postgress database and add user/make admin etc add products, Admin can also add products from the webpage 
 
 Running the Development Server
 
